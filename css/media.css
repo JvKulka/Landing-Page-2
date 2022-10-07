@@ -1,0 +1,57 @@
+@media screen and (max-width: 890px) {
+    
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    input {
+        align-self: center;
+    }
+
+    img {
+        display: none;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    h2, p {
+        text-align: center;
+        margin: 35px auto;
+    }
+
+}
+
+@media (min-width: 891px) and (max-width: 950px) { /*1195*/
+    h2 {
+        font-size: 40px;
+    }
+
+    img {
+        width: 450px;
+    }
+}
+
+@media (min-width: 951px) and (max-width: 1195px) {
+    h2 {
+        font-size: 42px;
+    }
+
+    img {
+        width: 500px;
+    }
+}
